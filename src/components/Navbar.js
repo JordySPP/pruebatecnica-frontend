@@ -20,6 +20,11 @@ function Navbar() {
       icon: "pi pi-list",
       command: () => navigate("/registros"),
     },
+    {
+      label: "Reportes",
+      icon: "pi pi-chart-bar",
+      command: () => navigate("/reportes"),
+    },
   ];
 
   return <Menubar model={items} />;

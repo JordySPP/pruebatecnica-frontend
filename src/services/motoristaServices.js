@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "http://localhost:3001/api/motorista";
+const API = "https://pruebatecnica-backend-production.up.railway.app/api/motorista";
 
 export const getMotoristas = () => {
   return axios.get(API);
